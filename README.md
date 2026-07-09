@@ -6,11 +6,6 @@ This repository contains a data science pipeline designed to evaluate how strate
 
 Using a realistic, synthetic historical dataset, this project builds regression and event-study models to isolate the structural drivers behind market volatility and financial returns within the artificial intelligence sector.
 
-## Key Features & Objectives
-* **Investment Sensitivity Analysis:** Quantify the statistical relationship between daily R&D allocation (`R&D_Spending_USD_Mn`), product revenue generation (`AI_Revenue_USD_Mn`), and immediate market valuation fluctuations.
-* **Event Study Framework:** Map out explicit milestone intervals (`Event`) to evaluate abnormal returns and localized market trends immediately surrounding core product updates and strategic releases.
-* **Feature Engineering & Exploration:** Process historical financial indicators to clear data anomalies, balance features, and visualize cross-company performance anomalies.
-
 ## Repository Structure
 ```text
 ├── AI_Financial_and_Market_Impact_Analysis.ipynb  # Primary data analysis pipeline
@@ -42,3 +37,17 @@ Python 3.x
 Pandas & NumPy (Data manipulation and mathematical processing)
 
 Matplotlib & Seaborn (Statistical visualization and correlation tracking)
+
+
+
+Getting Started
+Clone this repository to your machine.
+
+Open the Jupyter Notebook inside VS Code or your local browser environment to review the steps.
+
+
+
+### What changed:
+Putting those three backticks (```) right below `└── README.md` closes the box cleanly, freeing up your headers (`## Dataset Schema` and `## Environment & Tech Stack`) so they display as clean, bold section titles instead of plain text inside the block. 
+
+Swap that in, check the preview one more time, and you are ready to hit **Commit changes...**!
